@@ -7,7 +7,9 @@
         menu-classes="ml-auto"
     >
         <template slot-scope="{ }" class="bar">
-            <router-link v-popover:popover1 class="navbar-brand" to="/"><img class="img-fluid float-right" src="../assets/img/solablogo.png" alt="logo"></router-link>
+            <router-link v-popover:popover1 class="navbar-brand" to="/">
+                <img class="img-fluid float-right" src="../assets/img/solablogo.png" alt="logo">
+            </router-link>
             <el-popover
                 ref="popover1"
                 popper-class="popover"
@@ -62,7 +64,7 @@
                 <nav-link to="/">
                 About us
                 </nav-link>
-                <nav-link to="/">
+                <nav-link to="/contact">
                 Contact
                 </nav-link>
                 <nav-link to="/">

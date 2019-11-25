@@ -200,7 +200,7 @@
         <!-- Nav Item - Single link without dropdown -->
         <li class="nav-item">
          
-          <router-link tag="a" class="nav-link" to="/">
+          <router-link tag="a" class="nav-link" to="/contact">
            <i class="fas fa-fw fa-user"></i>
                 <span>Contact us</span>
               </router-link>

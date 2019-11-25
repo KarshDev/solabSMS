@@ -10,6 +10,8 @@ import StarterFooter from './layout/StarterFooter.vue';
 import MainFooter from './layout/MainFooter.vue';
 import createPhonebook from './dashboard/Phonebook/createPhonebook.vue';
 import bulkSms from './dashboard/sendMessage/bulkSms.vue';
+import contact from './dashboard/Contact.vue';
+
 // import mainDashboard from './dashboard/mainDashboard.vue';
 import Sidebar from './dashboard/Sidebar.vue';
 Vue.use(Router);
@@ -69,14 +71,13 @@ export default new Router({
           path: '/contact',
           name: 'contact',
           components: {
-            createPhonebook
-          },
-          meta: {
-            forAuth: true
-          },
+            default: contact, header: MainNavbar, footer: MainFooter },
+        props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+          }
         },
       ]
-
     },
     // {
     //   path: '/dashboard/main',

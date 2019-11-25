@@ -46,7 +46,10 @@
     </div>
     <!-- <basic-elements></basic-elements>
     <navigation></navigation> -->
-    <tabs-section></tabs-section>
+    <ourServices></ourServices>
+    <pricing></pricing>
+    <!-- <tabs-section></tabs-section> -->
+    <getStarted></getStarted>
     <!-- <progress-pagination></progress-pagination>
     <notifications></notifications>
     <typography></typography>
@@ -72,6 +75,9 @@ import NucleoIconsSection from './components/NucleoIconsSection';
 import SignupForm from './components/SignupForm';
 import ExamplesSection from './components/ExamplesSection';
 import DownloadSection from './components/DownloadSection';
+import Pricing from './components/PricingTable';
+import getStarted from './components/QuickLogin';
+import ourServices from './components/OurServices';
 
 export default {
   name: 'dashboard',
@@ -89,7 +95,10 @@ export default {
     NucleoIconsSection,
     SignupForm,
     ExamplesSection,
-    DownloadSection
+    DownloadSection,
+    Pricing,
+    getStarted,
+    ourServices
   }
 };
 </script>

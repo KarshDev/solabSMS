@@ -30,6 +30,7 @@ import axios from 'axios'
 import '@/assets/vendor/jquery/jquery.js'   //bootstrap core js
 import '@/assets/vendor/bootstrap/js/bootstrap.min.js'
 
+
 const options = {
   color: '#green',
   failedColor: '#red',
@@ -69,6 +70,7 @@ router.beforeEach(
 )
 
 window.$ = window.jQuery = $;
+
 Vue.config.productionTip = false;
 new Vue({
   router,

@@ -18,9 +18,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            Contact us
-                        </a>
+                        <router-link to="/contact">Contact us</router-link>
                     </li>
                     <li>
                         <a href="#">
@@ -50,4 +48,7 @@ export default {
   }
 };
 </script>
-<style></style>
+
+<style>
+
+</style>
