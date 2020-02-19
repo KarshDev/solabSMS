@@ -29,6 +29,7 @@ import axios from 'axios'
 //js
 import '@/assets/vendor/jquery/jquery.js'   //bootstrap core js
 import '@/assets/vendor/bootstrap/js/bootstrap.min.js'
+import vuetify from './plugins/vuetify';
 
 
 const options = {
@@ -77,6 +78,8 @@ Vue.config.productionTip = false;
 new Vue({
   router,
   mode: 'history',
-  render: h => h(App),
+  vuetify,
+
   // router: router
+  render: h => h(App)
 }).$mount('#app');
