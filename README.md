@@ -1,6 +1,6 @@
 # solab-sms
 
-> A Vue.js project deployed for bulk sms services
+>Bulk sms application written and deployed with vueJS
 
 ## Build Setup
 
